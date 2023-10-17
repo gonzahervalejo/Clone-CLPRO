@@ -1,166 +1,137 @@
-a  {
-    font-family: 'Roboto Condensed', sans-serif;
+a {
+  font-family: "Roboto Condensed", sans-serif;
 }
-
 
 /*------------------------------------------------NavBar--------------------------------------------------------------------*/
 
 .bg-light {
-    background-color: #3a098a !important;
+  background-color: #191422 !important;
 }
 
 .brand {
-    width: 250px;
+  height: 60px;
+  margin-left: 50px;
 }
 
 .navbar-expand-lg .navbar-collapse {
-    display: flex;
-    justify-content: end;
-    font-size: 20px;
-    font-weight: 500;
-   
-
-    
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .nav-link {
-    display: block;
-    margin-right: 30px;
-    color: white;
-    
-}   
-
-
-.nav-link:hover{
-color: orange;
+  display: block;
+  margin-right: 30px;
+  color: white;
 }
 
-
+.nav-link:hover {
+  color: rgb(5, 4, 2);
+}
 
 /*------------------------------------------------Hero--------------------------------------------------------------------*/
 
-.hero-div{
-
-     background-image: url(./assets/img/image34.png);
-     background-repeat: no-repeat;
-     min-height: 750px;
-     max-height: 100vh;
-     background-size: cover;
-     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background-position: bottom;
-    
+.hero-div {
+  background-image: url(./assets/img/imghero.jpg);
+  min-height: 750px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-position: center;
 }
 
-.text1{
-
-    border: solid 2px gray;
-    height: 285px;
-    width: 1080px;
-    background-color: #DDAA338C;
-    font-family: 'Roboto Condensed', sans-serif;
-    display: flex;
-    text-align: center;
-    align-items: center;
-   
-
+.text1 {
+  border: solid 2px gray;
+  height: 285px;
+  width: 1080px;
+  background-color: #16286488;
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
-.text2{
-
-    border: solid 2px gray;
-    height: 125px;
-    width: 1080px;
-    background-color: #434343A3;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    
+.text2 {
+  border: solid 2px gray;
+  height: 125px;
+  width: 1080px;
+  background-color: #31303098;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
 h1 {
-    margin-left: 3pc;
-    font-family: 'Roboto Condensed', sans-serif !important;
-    font-size: 65px;
-    font-weight: 900;
-    color: #ffffff;
-    text-align: initial
-    
-    
+  margin-left: 3pc;
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-size: 65px;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: initial;
 }
 
-p{
-    margin-left: 3pc;
-    margin-right: 2pc;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #ffffff;
-    font-size: 28px;
-    font-weight: 500;
-    text-align:initial
-    
+p {
+  margin-left: 3pc;
+  margin-right: 2pc;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: initial;
 }
 
-
-/*-----------------------------------------------Hero2---------------------------------------------------------------*/ 
-
+/*-----------------------------------------------Hero2---------------------------------------------------------------*/
 
 .card-img-top {
-    width: 67px;
-
+  width: 67px;
 }
 
-.card-body{
-    height: 100px;
-   
+.card-body {
+  height: 100px;
 }
 
 h5 {
-    margin: 5px;
-    padding: 26px;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-    color: #332266;
+  margin: 5px;
+  padding: 26px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #191422;
 }
-
 
 .card {
-    width: 440px !important;
-    height: 320px;
-    align-items: center;
-    border-radius: 20px;
-    float: left;
-  
+  width: 440px !important;
+  height: 320px;
+  align-items: center;
+  border-radius: 20px;
+  float: left;
 }
-
 
 p.card-text {
-    
-    color: rgb(66, 66, 66);
-    font-family: "Roboto Condensed", Sans-serif !important;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    
+  color: rgb(66, 66, 66);
+  font-family: "Roboto Condensed", Sans-serif !important;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
 }
 
-.hero-div-2{
-    padding: 127px; 
-    background-color: #332266;
-    height: 960px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: flex-start;
-    grid-row-gap: 65px;
-    grid-column-gap: 65px;
+.hero-div-2 {
+  padding: 127px;
+  background-color: #191422;
+  height: 960px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: flex-start;
+  grid-row-gap: 65px;
+  grid-column-gap: 65px;
 }
 
+/*-----------------------------------------------Hero3---------------------------------------------------------------*/
 
-/*-----------------------------------------------Hero3---------------------------------------------------------------*/ 
-
-.hero-div-3{
-    background-image: url("./assets/img/");
+.hero-div-3 {
+  background-image: url("./assets/img/");
 }
